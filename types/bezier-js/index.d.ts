@@ -7,7 +7,7 @@ declare module 'bezier-js' {
     interface Point {
         x: number;
         y: number;
-        z?: number | undefined;
+        t?: number | undefined;
     }
     interface Projection extends Point {
         t?: number | undefined;
